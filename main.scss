@@ -1,0 +1,53 @@
+*{
+  box-sizing: border-box;
+  font-family: "Titillium Web";
+  font-weight: lighter;
+}
+body{
+  margin-left:10em;
+  margin-right:10em;
+  margin-top:10em;
+  margin-bottom:10em;
+}
+.accordion{
+  width: 500px;
+  height: auto;
+}
+
+h2 {
+  background-color: #00C6D6;
+  width: 500px;
+  height: 50px;
+  line-height: 2em;
+  color: white;
+  margin: 0;
+  padding-left: 25px;
+}
+
+p{
+  color: #8F8F96;
+  font-size: smaller;
+  padding-left: 25px;
+}
+
+h2:hover{
+  background-color: #00DAEC;
+}
+
+section{
+  width: 500px;
+  height: 50px;
+  overflow:hidden;
+}
+
+.box{
+  width: 500px;
+  overflow: hidden;
+  border-radius: 3.5px;
+  border: solid 1px #00BDCD;
+}
+
+.sec{
+  height: 160px;
+  transition: all 0.75s ease;
+}
